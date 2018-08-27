@@ -67,18 +67,3 @@ function clickOutside(e) {
     submodal.style.display = "none";
   }
 }
-
-var submodal = document.getElementById("submodal");
-var subBtn = document.getElementById("subscribe-btn");
-var subClose = document.getElementsByClassName("sub-close");
-
-subBtn.addEventListener("clicl", openSubModal);
-subClose.addEventListener("click", closeSubModal);
-
-function openSubModal() {
-  submodal.style.display = "block";
-}
-
-function closeSubModal() {
-  submodal.style.display = "none";
-}
